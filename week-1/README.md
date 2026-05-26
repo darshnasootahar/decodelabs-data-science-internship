@@ -5,7 +5,7 @@
 
 ## 📦 Dataset Used
 **Titanic Dataset**
-- Source: Built-in Seaborn library (`sns.load_dataset('titanic')`)
+- Source: Built-in Seaborn library df = pd.read_csv('/content/Titanic-Dataset.csv')
 - Size: 891 rows × 15 columns
 - Description: Contains information about passengers aboard the Titanic ship (1912), including age, gender, class, fare, and whether they survived.
 
@@ -15,7 +15,7 @@
 
 ### Task 1: Data Collection & Dataset Understanding
 - **Goal:** Load the Titanic dataset and explore its structure
-- **File:** `task1_data_collection.py`
+- **File:** `task1_data_collection.ipynb`
 - **What I did:**
   - Loaded the dataset using Seaborn
   - Identified all 15 columns and their data types
@@ -27,7 +27,7 @@
 
 ### Task 2: Data Cleaning & Preprocessing
 - **Goal:** Clean and prepare data for analysis
-- **File:** `task2_data_cleaning.py`
+- **File:** `task2_data_cleaning.ipynb`
 - **What I did:**
   - Filled missing `age` values with median (29.0)
   - Filled missing `embarked` values with mode ('S')
@@ -41,7 +41,7 @@
 
 ### Task 3: Exploratory Data Analysis (EDA)
 - **Goal:** Discover patterns and trends in the data
-- **File:** `task3_eda.py`
+- **File:** `task3_EDA.ipynb`
 - **What I did:**
   - Calculated basic statistics (mean, median, min, max)
   - Analyzed survival rates by gender and class
@@ -62,7 +62,7 @@
 
 ### Task 4: Data Visualization
 - **Goal:** Create charts to communicate insights visually
-- **File:** `task4_visualization.py`
+- **File:** `task4_Data_Visualization.ipynb`
 - **Output:** `titanic_visualizations.png`
 - **Charts Created:**
   1. Survival Count (Bar Chart)
@@ -76,7 +76,7 @@
 
 ### Task 5: Predictive Model
 - **Goal:** Build a model to predict passenger survival
-- **File:** `task5_predictive_model.py`
+- **File:** `task5_Predictive_Model.ipynb`
 - **Model Used:** Logistic Regression
 - **What I did:**
   - Selected 5 features: pclass, sex, age, fare, embarked
