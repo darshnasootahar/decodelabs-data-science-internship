@@ -1,5 +1,5 @@
 # Week 1 – Data Science Tasks
-## DecodeLabs Internship | By: Darsha Nootahar
+## DecodeLabs Internship | By: Darsha Sootahar
 
 ---
 
@@ -104,12 +104,12 @@
 ## ▶️ How to Run
 ```bash
 # Run each task separately
-python task1_data_collection.py
-python task2_data_cleaning.py
-python task3_eda.py
-python task4_visualization.py
-python task5_predictive_model.py
+python task1_data_collection.ipynb
+python task2_data_cleaning.ipynb
+python task3_EDA.ipynb
+python task4_ Data_Visualization.ipynb
+python task5_Predictive _Model.ipynb
 ```
 
-Or run in **Google Colab** by uploading the `.py` files directly.
+Or run in **Google Colab** by uploading the `.ipynb` files directly.
 
